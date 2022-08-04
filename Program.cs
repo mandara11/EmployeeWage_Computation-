@@ -14,8 +14,11 @@
             //PartTimeSwitch obj4 = new PartTimeSwitch();
             //obj4.AddPartTimeSwitch();
 
-            MonthWages obj5 = new MonthWages();
-            obj5.WagesforMonth();
+            //MonthWages obj5 = new MonthWages();
+            //obj5.WagesforMonth();
+
+            CalculateMonthlyWage obj6 = new CalculateMonthlyWage();
+            obj6.CalculateMonthlyEmpWage();
         }
     }
 }
