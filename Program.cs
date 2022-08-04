@@ -5,9 +5,8 @@
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Employee Wage Program");
-            EmployeeCheck obj1 = new EmployeeCheck();
+            DailyEmpWage obj1 = new DailyEmpWage();
             obj1.CheckEmployeeAttendence();
-
         }
     }
 }
