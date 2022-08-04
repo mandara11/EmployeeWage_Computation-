@@ -8,8 +8,11 @@
             //DailyEmpWage obj1 = new DailyEmpWage();
             //obj1.CheckEmployeeAttendence();
 
-            PartTime obj3 = new PartTime();
-            obj3.AddPartTime();
+            //PartTime obj3 = new PartTime();
+            //obj3.AddPartTime();
+
+            PartTimeSwitch obj4 = new PartTimeSwitch();
+            obj4.AddPartTimeSwitch();
         }
     }
 }
