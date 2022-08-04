@@ -17,8 +17,11 @@
             //MonthWages obj5 = new MonthWages();
             //obj5.WagesforMonth();
 
-            CalculateMonthlyWage obj6 = new CalculateMonthlyWage();
-            obj6.CalculateMonthlyEmpWage();
+            //CalculateMonthlyWage obj6 = new CalculateMonthlyWage();
+            //obj6.CalculateMonthlyEmpWage();
+
+            ComputeEmployeeWage obj7 = new ComputeEmployeeWage();
+            obj7.ComputeEmpWage();
         }
     }
 }
