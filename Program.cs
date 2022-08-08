@@ -5,23 +5,14 @@
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Employee Wage Program");
-            //DailyEmpWage obj1 = new DailyEmpWage();
-            //obj1.CheckEmployeeAttendence();
+            
 
-            //PartTime obj3 = new PartTime();
-            //obj3.AddPartTime();
-
-            //PartTimeSwitch obj4 = new PartTimeSwitch();
-            //obj4.AddPartTimeSwitch();
-
-            //MonthWages obj5 = new MonthWages();
-            //obj5.WagesforMonth();
-
-            //CalculateMonthlyWage obj6 = new CalculateMonthlyWage();
-            //obj6.CalculateMonthlyEmpWage();
-
-            ComputeEmployeeWage obj7 = new ComputeEmployeeWage();
-            obj7.ComputeEmpWage();
+            //UC9
+            SaveEachCompanyTotalWage dMart = new SaveEachCompanyTotalWage("DMart", 20, 2, 10);
+            SaveEachCompanyTotalWage reliance = new SaveEachCompanyTotalWage("Reliance", 10, 4, 20);
+            dMart.computeEmpWage();
+            Console.WriteLine(dMart.ToString());
+            Console.WriteLine(reliance.ToString());
         }
     }
 }
